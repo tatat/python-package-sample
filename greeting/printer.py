@@ -1,4 +1,4 @@
-from greeting import generator
+from greeting.generator import hello as _hello
 
 def hello():
-    print(generator.hello())
+    print(_hello())
